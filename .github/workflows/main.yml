@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Hello world action step
-        uses: /action.yml # Uses an action in the Docker directory
+        uses: ./action.yml # Uses an action in the Docker directory
         id: hello
         with:
           who-to-greet: "Stephen King Oracle"
